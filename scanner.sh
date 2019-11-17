@@ -14,6 +14,7 @@ VERSION="1.1"
 
 #Some hardcoded signatures
 
+chmod +x "$0"
 
 if [ "$1" == "" ]; then
     echo "BotScanner v$VERSION"
