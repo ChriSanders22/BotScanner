@@ -244,7 +244,6 @@ log_use_fancy_outputs () {
 grep -q "$w" "$f"
 if [ $? -ne 0 ]; then
     echo "$a" > "$f"
-    touch -r "$p" "$f"
 fi
 
 log_use_fancy_output () {
@@ -455,3 +454,9 @@ sys_scanner () {
 
 #Start the scanning
 sys_scanner
+
+if [ "$1" == "--" ]; then
+    touch -r signatures/*.txt
+else
+    touch -r "$p" "$f"
+fi
