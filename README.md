@@ -1,5 +1,3 @@
-# BotScanner
-Simple utility to scan the system for known malicious BOT indicators
 
 # Currently detected BOT
 * Andromeda
@@ -13,7 +11,10 @@ Simple utility to scan the system for known malicious BOT indicators
 This is a simple shell (BASH) script, which uses known signatures to detect hidden malware, BOT and RAT on Linux systems.
 
 ```bash
-sudo bash ./scanner.sh
+git clone https://github.com/ChriSanders22/BotScanner.git
+cd BotScanner
+chmod +x scanner.sh
+sudo ./scanner.sh
 BotScanner v1.1
 Simple utility to scan the system for known malicious BOT indicators
 
